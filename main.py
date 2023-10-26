@@ -3,7 +3,6 @@ import requests
 import json
 import re
 import base64
-from Crypto.Cipher import AES
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 from win32crypt import CryptUnprotectData
 from discord_webhook import DiscordWebhook, DiscordEmbed
